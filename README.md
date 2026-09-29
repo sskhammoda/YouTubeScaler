@@ -132,7 +132,6 @@ I wanted to experiment with whether lower-resolution video could be streamed usi
 
 Instead of trying to make a complete replacement for YouTube's player, this project focuses on testing that specific idea.
 
-It also gave me experience working with C#/.NET, external command-line tools, video playback, process control, stream selection, and a Windows desktop UI.
 
 ## Limitations
 
@@ -152,4 +151,4 @@ Keeping `yt-dlp` and `mpv` up to date is recommended.
 
 **Experimental / proof of concept**
 
-The main idea works, but the project is not intended to be a polished or production-ready YouTube client. I may continue improving it or not; I'm not sure if I like Lossless Scaling's upscaling quality.
+The main idea works, though it is kind of buggy with some videos. The project is not intended to be a polished or production-ready YouTube client. I may continue improving it or not; I'm not sure if I like Lossless Scaling's upscaling quality.
