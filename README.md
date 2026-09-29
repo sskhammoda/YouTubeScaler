@@ -25,19 +25,14 @@ YouTubeScaler focuses mainly on lower resolutions such as **360p and 480p**.
 
 ## Features
 
-- Load a YouTube video from its URL
-- Show available video resolutions
-- Select an audio track when multiple tracks are available
-- Avoid HDR formats
-- Prefer SDR formats at 30 FPS or lower when appropriate
-- Play the selected stream using mpv
-- Switch video quality while keeping the current playback position
-- Switch audio tracks
-- Restore play/pause state after changing streams
-- Open the player at the selected video's actual resolution
+- Opens the player at the selected video's actual resolution (its main purpose)
+- Loads a YouTube video from its URL
+- Shows available video resolutions
+- Selects an audio track when multiple tracks are available
+- Prefers SDR formats at 30 FPS or lower when appropriate
+- Plays the selected stream using mpv
+- Allows switching audio tracks
 - Basic keyboard playback controls
-- Optional AutoHotkey shortcuts for quickly opening a YouTube video
-- Command-line quality selection
 
 ## Requirements
 
@@ -45,7 +40,7 @@ YouTubeScaler focuses mainly on lower resolutions such as **360p and 480p**.
 - .NET 8 Desktop Runtime
 - `mpv.exe`
 - `yt-dlp.exe`
-- Lossless Scaling if you want to use the local upscaling workflow
+- Lossless Scaling to upscale the video locally (can also use FG)
 
 `mpv.exe` and `yt-dlp.exe` can be placed in the `Tools` folder beside the application. The app can also find them beside the executable or through `PATH`.
 
@@ -157,4 +152,4 @@ Keeping `yt-dlp` and `mpv` up to date is recommended.
 
 **Experimental / proof of concept**
 
-The main idea works, but the project is not intended to be a polished or production-ready YouTube client. I may continue improving it as I learn more.
+The main idea works, but the project is not intended to be a polished or production-ready YouTube client. I may continue improving it or not; I'm not sure if I like Lossless Scaling's upscaling quality.
