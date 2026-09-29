@@ -1,0 +1,42 @@
+# .NET build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Build / publish output
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+publish/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local environment / secrets
+.env
+.env.*
+*.local
+
+# yt-dlp / mpv temporary files
+*.part
+*.ytdl
